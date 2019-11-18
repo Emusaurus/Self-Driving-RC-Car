@@ -1,0 +1,14 @@
+[[package]]
+category = "main"
+description = "A module to control Raspberry Pi GPIO channels"
+name = "rpi.gpio"
+optional = false
+python-versions = "*"
+version = "0.7.0"
+
+[metadata]
+content-hash = "83c68bd2f0be97b068bbe53aa514531eec90bfc20dc6adb7fab7e8e3fb5f7eff"
+python-versions = "^3.7"
+
+[metadata.hashes]
+"rpi.gpio" = ["7424bc6c205466764f30f666c18187a0824077daf20b295c42f08aea2cb87d3f"]
