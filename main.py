@@ -25,11 +25,11 @@ def forwardtimed():
   if length < 0:
     print('Invalaid input')
   timing = length/speed
-  print(gmtime(), "- going backwards for ", timing, " seconds")
+  print(gmtime(), "- going forwards for ", timing, " seconds")
   GPIO.output(2, 1)  # send positive to positive
-  GPIO.output(0, 0)  # send negaive to negative
+  GPIO.output(0, 0)  # send negative to negative
   time.sleep(timing)
-  GPIO.output(2, 0)  # send negaive to positive, stops motor.
+  GPIO.output(2, 0)  # send negative to positive, stops motor.
   GPIO.output(0, 0)  # send negative to negative
  
 
@@ -37,4 +37,3 @@ def forwardtimed():
 #if length < 0:
 #  print('Invalaid input')
 #timing = length/speed
-
