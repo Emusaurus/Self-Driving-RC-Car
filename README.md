@@ -1,4 +1,4 @@
-# Self-Driving-RC-Car
+# Self Driving RC Car
 for class =)
 
 This is my long term projct for my pre engineering class.
