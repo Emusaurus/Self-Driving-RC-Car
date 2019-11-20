@@ -7,6 +7,7 @@ GPIO.setup(servoPIN, GPIO.OUT)
 
 p = GPIO.PWM(servoPIN, 50) # GPIO 17 PWM with 50Hz
 p.start(2.5) # Initialize
+
 #  On clientside keypress a:
 #    p.ChangeDutyCycle(45)
 
